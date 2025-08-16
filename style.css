@@ -1,0 +1,46 @@
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+header {
+    background-color: #004c80; /* blue */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo {
+    height: 60px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #ff7a00; /* orange */
+}
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #f9f9f9;
+}
+.hero h1 {
+    font-family: 'DK Longreach', cursive;
+    font-size: 3em;
+    color: #004c80;
+}
+.hero p {
+    color: #555;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #004c80;
+    color: white;
+}
